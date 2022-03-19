@@ -1,0 +1,21 @@
+{
+  "id": "4b22e1ee-e493-4577-b4d6-2082ab76c498",
+  "uid": "facilis-ut-dolores",
+  "type": "publication",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Nulla ad dolor elit eu tempor cupidatat deserunt exercitation irure non anim aliqua. Esse labore in cillum enim irure ullamco ut nisi dolor excepteur pariatur incididunt ex id nulla.",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Dolor irure adipisicing nisi pariatur deserunt elit pariatur occaecat officia enim aute. Magna sit ut amet sunt duis aute incididunt id nulla consectetur officia. Adipisicing aliquip sunt et tempor magna incididunt reprehenderit proident est occaecat sit Lorem culpa velit sit.",
+        "spans": []
+      }
+    ]
+  }
+}

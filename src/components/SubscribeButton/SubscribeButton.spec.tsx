@@ -39,8 +39,8 @@ describe("SubscribeButton component", () => {
     const useSessionMocked = mocked(useSession);
     const pushMock = jest.fn();
 
-    useSessionMocked.mockReturnValueOnce([
-      {
+    useSessionMocked.mockReturnValueOnce({
+      data: {
         user: {
           name: "John Doe",
           email: "john.doe@examble.com",
@@ -48,8 +48,8 @@ describe("SubscribeButton component", () => {
         activeSubscription: "fake-active-subscription",
         expires: "fake-expires",
       },
-      false,
-    ] as any);
+      status: false,
+    } as any);
 
     useRouterMocked.mockImplementationOnce(() => ({ push: pushMock } as any));
 
@@ -59,6 +59,6 @@ describe("SubscribeButton component", () => {
 
     fireEvent.click(subscribeButton);
 
-    expect(pushMock); //.toHaveBeenCalledWith("/posts");
+    expect(pushMock).toHaveBeenCalledWith("/posts");
   });
 });

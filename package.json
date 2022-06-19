@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "slicemachine": "start-slicemachine",
-    "test": "yarn jest"
+    "test": "yarn jest",
+    "test-coverage": "yarn jest --coverage"
   },
   "dependencies": {
     "@prismicio/client": "5.1.1",
